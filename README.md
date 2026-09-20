@@ -21,7 +21,7 @@ java Starter
 ## How we built it
 We planned everything out before writing code — UML diagrams for how the classes talk to each other, then split the work into `Field`, `Team`, `Player`, `Ball`, `GameTimer`, and `GameMenu` classes. Player class ended up being the biggest one — it handles movement, walk animation, kicking, and all the drawing (yeah, we hand-drew the little player sprites in code, legs and all).
 
-We ran it Scrum-style — 4-week sprint, kanban board, the whole thing. The full product backlog (47 tasks) is in [`docs/product-backlog.xlsx`](product-backlog.xlsx) if you want to see how we broke it down.
+We ran it Scrum-style — 4-week sprint, kanban board, the whole thing. The full product backlog (47 tasks) is in [`product-backlog.xlsx`](product-backlog.xlsx) if you want to see how we broke it down.
 
 Honestly the hardest part was getting ball-player collision to feel right and not janky. Took a lot of trial and error on the friction values.
 
